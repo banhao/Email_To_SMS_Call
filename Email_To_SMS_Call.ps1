@@ -39,6 +39,8 @@
 
 It can be used to monitor IT system warning emails or security alert emails to different team by different time range. 
 
+https://github.com/banhao/Email_To_SMS_Call to get the init.xml
+
 This script use the Twilio API to send the SMS and make phone call. So please register a Twilio phone number first.
 https://www.twilio.com/
 
@@ -46,6 +48,8 @@ Before you run the script Install the Exchange Web Services Managed API 2.2.
 https://www.microsoft.com/en-us/download/details.aspx?id=42951
 
 Please check the License before you download this script, if you don't agree with the License please don't download and use this script. https://github.com/banhao/Email_To_SMS_Call/blob/master/LICENSE
+
+
 
 #> 
 
