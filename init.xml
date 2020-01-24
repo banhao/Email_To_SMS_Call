@@ -1,0 +1,66 @@
+<SETTINGS>
+	<ADUSERNAME>YOUR AD ACCOUNT USERNMAE</ADUSERNAME>
+	<DOMAIN>YOUR AD DOMAIN NAME</DOMAIN>
+	<EMAILADDRESS>YOUR EMAIL ADDRESS</EMAILADDRESS>
+	<EXCHANGESRV>YOUR EXCHANGE SERVER</EXCHANGESRV>
+	<EWSDLLPATH>C:\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll</EWSDLLPATH>
+	<INTERVAL>60</INTERVAL>
+	<TWILIOSMSAPIURL>https://api.twilio.com/2010-04-01/Accounts/YOUR_TWILIOID/Messages.json</TWILIOSMSAPIURL>
+	<TWILIOVOICEAPIURL>https://api.twilio.com/2010-04-01/Accounts/TOUR_TWILIOID/Calls.json</TWILIOVOICEAPIURL>
+	<VOICEURL>http://demo.twilio.com/docs/voice.xml</VOICEURL>
+	<TWILIOSID>YOUR TWILIO ID</TWILIOSID>
+	<TWILIOTOKEN>YOUR TWILIO TOKEN</TWILIOTOKEN>
+	<TWILIOPHONEFROM>YOUR TWILIO PHONE NUMBER</TWILIOPHONEFROM>
+	<POLICY>	
+		<EMAILFROM>example@example.com
+			<EMAILSUBJECT>TEST 1
+				<DaysOfWeek>Saturday
+					<HOUR>09-20
+						<TWILIOPHONETO>SaturdaySupportTeam1PhoneNumber</TWILIOPHONETO>
+					</HOUR>
+					<HOUR>00-08
+						<TWILIOPHONETO>SaturdaySupportTeam2PhoneNumber</TWILIOPHONETO>
+					</HOUR>
+					<HOUR>21-23
+						<TWILIOPHONETO>SaturdaySupportTeam3PhoneNumber</TWILIOPHONETO>
+					</HOUR>
+				</DaysOfWeek>
+				<DaysOfWeek>Sunday
+					<HOUR>*
+						<TWILIOPHONETO>SundaySupportTeamPhoneNumber</TWILIOPHONETO>
+					</HOUR>
+				</DaysOfWeek>
+			</EMAILSUBJECT>
+			
+			<EMAILSUBJECT>TEST 2
+				<DaysOfWeek>Friday
+					<HOUR>09-20
+						<TWILIOPHONETO>SaturdaySupportTeam1PhoneNumber</TWILIOPHONETO>
+					</HOUR>
+					<HOUR>00-08
+						<TWILIOPHONETO>SaturdaySupportTeam2PhoneNumber</TWILIOPHONETO>
+					</HOUR>
+					<HOUR>21-23
+						<TWILIOPHONETO>SaturdaySupportTeam3PhoneNumber</TWILIOPHONETO>
+					</HOUR>
+				</DaysOfWeek>
+				<DaysOfWeek>Saturday
+					<HOUR>*
+						<TWILIOPHONETO>SundaySupportTeamPhoneNumber</TWILIOPHONETO>
+					</HOUR>
+				</DaysOfWeek>
+			</EMAILSUBJECT>
+		</EMAILFROM>
+		
+		<EMAILFROM>wdatpntf@microsoft.com
+			<EMAILSUBJECT>*
+				<DaysOfWeek>*
+					<HOUR>*
+						<TWILIOPHONETO>AddYourPhoneNumberHere</TWILIOPHONETO>
+					</HOUR>
+				</DaysOfWeek>
+			</EMAILSUBJECT>
+		</EMAILFROM>
+	</POLICY>
+</SETTINGS>	
+
