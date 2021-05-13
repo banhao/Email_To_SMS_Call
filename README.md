@@ -11,3 +11,5 @@ https://www.twilio.com/
 
 Before you run the script Install the Exchange Web Services Managed API 2.2. 
 https://www.microsoft.com/en-us/download/details.aspx?id=42951
+
+Also can find this powershell script on Powershell Gallery https://www.powershellgallery.com/packages/Email_To_SMS_Call
